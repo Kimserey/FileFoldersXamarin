@@ -742,32 +742,32 @@ namespace FileFolders
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0b003a
-			public const int abc_background_cache_hint_selector_material_dark = 2131427386;
-			
 			// aapt resource value: 0x7f0b003b
-			public const int abc_background_cache_hint_selector_material_light = 2131427387;
+			public const int abc_background_cache_hint_selector_material_dark = 2131427387;
 			
 			// aapt resource value: 0x7f0b003c
-			public const int abc_color_highlight_material = 2131427388;
+			public const int abc_background_cache_hint_selector_material_light = 2131427388;
+			
+			// aapt resource value: 0x7f0b003d
+			public const int abc_color_highlight_material = 2131427389;
 			
 			// aapt resource value: 0x7f0b0000
 			public const int abc_input_method_navigation_guard = 2131427328;
 			
-			// aapt resource value: 0x7f0b003d
-			public const int abc_primary_text_disable_only_material_dark = 2131427389;
-			
 			// aapt resource value: 0x7f0b003e
-			public const int abc_primary_text_disable_only_material_light = 2131427390;
+			public const int abc_primary_text_disable_only_material_dark = 2131427390;
 			
 			// aapt resource value: 0x7f0b003f
-			public const int abc_primary_text_material_dark = 2131427391;
+			public const int abc_primary_text_disable_only_material_light = 2131427391;
 			
 			// aapt resource value: 0x7f0b0040
-			public const int abc_primary_text_material_light = 2131427392;
+			public const int abc_primary_text_material_dark = 2131427392;
 			
 			// aapt resource value: 0x7f0b0041
-			public const int abc_search_url_text = 2131427393;
+			public const int abc_primary_text_material_light = 2131427393;
+			
+			// aapt resource value: 0x7f0b0042
+			public const int abc_search_url_text = 2131427394;
 			
 			// aapt resource value: 0x7f0b0001
 			public const int abc_search_url_text_normal = 2131427329;
@@ -778,11 +778,11 @@ namespace FileFolders
 			// aapt resource value: 0x7f0b0003
 			public const int abc_search_url_text_selected = 2131427331;
 			
-			// aapt resource value: 0x7f0b0042
-			public const int abc_secondary_text_material_dark = 2131427394;
-			
 			// aapt resource value: 0x7f0b0043
-			public const int abc_secondary_text_material_light = 2131427395;
+			public const int abc_secondary_text_material_dark = 2131427395;
+			
+			// aapt resource value: 0x7f0b0044
+			public const int abc_secondary_text_material_light = 2131427396;
 			
 			// aapt resource value: 0x7f0b0004
 			public const int accent_material_dark = 2131427332;
@@ -940,17 +940,20 @@ namespace FileFolders
 			// aapt resource value: 0x7f0b0037
 			public const int switch_thumb_disabled_material_light = 2131427383;
 			
-			// aapt resource value: 0x7f0b0044
-			public const int switch_thumb_material_dark = 2131427396;
-			
 			// aapt resource value: 0x7f0b0045
-			public const int switch_thumb_material_light = 2131427397;
+			public const int switch_thumb_material_dark = 2131427397;
+			
+			// aapt resource value: 0x7f0b0046
+			public const int switch_thumb_material_light = 2131427398;
 			
 			// aapt resource value: 0x7f0b0038
 			public const int switch_thumb_normal_material_dark = 2131427384;
 			
 			// aapt resource value: 0x7f0b0039
 			public const int switch_thumb_normal_material_light = 2131427385;
+			
+			// aapt resource value: 0x7f0b003a
+			public const int white = 2131427386;
 			
 			static Color()
 			{
@@ -1411,7 +1414,13 @@ namespace FileFolders
 			public const int abc_textfield_search_material = 2130837572;
 			
 			// aapt resource value: 0x7f020045
-			public const int notification_template_icon_bg = 2130837573;
+			public const int ic_pets_black_24dp = 2130837573;
+			
+			// aapt resource value: 0x7f020047
+			public const int notification_template_icon_bg = 2130837575;
+			
+			// aapt resource value: 0x7f020046
+			public const int splash = 2130837574;
 			
 			static Drawable()
 			{
@@ -1902,6 +1911,9 @@ namespace FileFolders
 			
 			// aapt resource value: 0x7f030000
 			public const int Icon = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int test_image = 2130903041;
 			
 			static Mipmap()
 			{
@@ -2498,6 +2510,9 @@ namespace FileFolders
 			
 			// aapt resource value: 0x7f09002e
 			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131296302;
+			
+			// aapt resource value: 0x7f090133
+			public const int Splash = 2131296563;
 			
 			// aapt resource value: 0x7f0900ad
 			public const int TextAppearance_AppCompat = 2131296429;
