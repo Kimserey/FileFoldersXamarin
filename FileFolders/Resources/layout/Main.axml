@@ -62,4 +62,23 @@
             android:layout_height="wrap_content"
             android:id="@+id/documentsDir" />
     </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4"
+        android:padding="10dp">
+        <TextView
+            android:text="System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3" />
+        <TextView
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/specialFolder" />
+    </LinearLayout>
 </LinearLayout>

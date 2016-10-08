@@ -36,6 +36,7 @@ namespace FileFolders
 			FindViewById<TextView>(Resource.Id.filesDir).Text = FilesDir.AbsolutePath;
 			FindViewById<TextView>(Resource.Id.picturesDir).Text = GetExternalFilesDir(Android.OS.Environment.DirectoryPictures).AbsolutePath;
 			FindViewById<TextView>(Resource.Id.documentsDir).Text = GetExternalFilesDir(Android.OS.Environment.DirectoryDocuments).AbsolutePath;
+			FindViewById<TextView>(Resource.Id.specialFolder).Text = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
 			                       
 		}
 
