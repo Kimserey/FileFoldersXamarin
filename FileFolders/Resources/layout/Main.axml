@@ -50,7 +50,7 @@
         android:id="@+id/linearLayout3"
         android:padding="10dp">
         <TextView
-            android:text="GetExternalFilesDir(null).AbsolutePath"
+            android:text="GetExternalFilesDir(Android.OS.Environment.DirectoryDocuments).AbsolutePath"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
