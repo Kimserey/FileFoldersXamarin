@@ -33,11 +33,42 @@ namespace FileFolders
 
 			SetContentView(Resource.Layout.Main);
 
-			FindViewById<TextView>(Resource.Id.filesDir).Text = FilesDir.AbsolutePath;
-			FindViewById<TextView>(Resource.Id.picturesDir).Text = GetExternalFilesDir(Android.OS.Environment.DirectoryPictures).AbsolutePath;
-			FindViewById<TextView>(Resource.Id.documentsDir).Text = GetExternalFilesDir(Android.OS.Environment.DirectoryDocuments).AbsolutePath;
-			FindViewById<TextView>(Resource.Id.specialFolder).Text = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-			                       
+			FindViewById<TextView>(Resource.Id.filesDir).Text =
+				FilesDir.AbsolutePath;
+
+			FindViewById<TextView>(Resource.Id.appfilesDir).Text =
+				Application.Context.FilesDir.AbsolutePath;
+			
+			FindViewById<TextView>(Resource.Id.specialFolder).Text =
+				System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+
+			FindViewById<TextView>(Resource.Id.externalstoragepublic).Text =
+				Android.OS
+					.Environment
+					.GetExternalStoragePublicDirectory(null)
+					.AbsolutePath;
+			
+			FindViewById<TextView>(Resource.Id.externalstorageprivate).Text =
+				Android.OS
+					.Environment
+                    .ExternalStorageDirectory
+					.AbsolutePath;
+
+			FindViewById<TextView>(Resource.Id.picturesDir).Text =
+				Android
+					.OS
+					.Environment
+					.GetExternalStoragePublicDirectory(Android.OS.Environment.DirectoryPictures)
+					.AbsolutePath;
+
+			FindViewById<TextView>(Resource.Id.documentsDir).Text =
+				Android
+					.OS
+					.Environment
+					.GetExternalStoragePublicDirectory(Android.OS.Environment.DirectoryDocuments)
+					.AbsolutePath;
+
+
 		}
 
 		protected override void OnResume()
