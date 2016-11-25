@@ -14,13 +14,15 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView1" />
+            android:id="@+id/textView1"
+            android:textSize="@dimen/font_size" />
         <TextView
             android:text="file dir"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/filesDir" />
+            android:id="@+id/filesDir"
+            android:textSize="@dimen/font_size" />
     </LinearLayout>
     <LinearLayout
         android:orientation="vertical"
@@ -29,16 +31,38 @@
         android:id="@+id/linearLayout1"
         android:padding="10dp">
         <TextView
-            android:text="Application.FilesDir.AbsolutePath"
+            android:text="Application.Context.FilesDir.AbsolutePath"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView2" />
+            android:id="@+id/textView2"
+            android:textSize="@dimen/font_size" />
         <TextView
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/appfilesDir" />
+            android:id="@+id/appfilesDir"
+            android:textSize="@dimen/font_size" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:padding="10dp">
+        <TextView
+            android:text="Application.Context.GetExternalFilesDir(null).AbsolutePath"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textSize="@dimen/font_size" />
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/externalfilefolderprivate"
+            android:textSize="@dimen/font_size" />
     </LinearLayout>
     <LinearLayout
         android:orientation="vertical"
@@ -51,13 +75,15 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView3" />
+            android:id="@+id/textView3"
+            android:textSize="@dimen/font_size" />
         <TextView
             android:text="Medium Text"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/specialFolder" />
+            android:id="@+id/specialFolder"
+            android:textSize="@dimen/font_size" />
     </LinearLayout>
     <LinearLayout
         android:orientation="vertical"
@@ -66,16 +92,18 @@
         android:id="@+id/linearLayout4"
         android:padding="10dp">
         <TextView
-            android:text="GetExternalStoragePublicDirectory"
+            android:text="Android.OS.Environment.RootDirectory.AbsolutePath"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView4" />
+            android:id="@+id/textView4"
+            android:textSize="@dimen/font_size" />
         <TextView
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/externalstoragepublic" />
+            android:id="@+id/rootdirectory"
+            android:textSize="@dimen/font_size" />
     </LinearLayout>
     <LinearLayout
         android:orientation="vertical"
@@ -88,12 +116,14 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView4" />
+            android:id="@+id/textView4"
+            android:textSize="@dimen/font_size" />
         <TextView
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/externalstorageprivate" />
+            android:id="@+id/externalstorageprivate"
+            android:textSize="@dimen/font_size" />
     </LinearLayout>
     <LinearLayout
         android:orientation="vertical"
@@ -106,12 +136,14 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/label2" />
+            android:id="@+id/label2"
+            android:textSize="@dimen/font_size" />
         <TextView
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/picturesDir" />
+            android:id="@+id/picturesDir"
+            android:textSize="@dimen/font_size" />
     </LinearLayout>
     <LinearLayout
         android:orientation="vertical"
@@ -126,11 +158,13 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView2" />
+            android:id="@+id/textView2"
+            android:textSize="@dimen/font_size" />
         <TextView
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/documentsDir" />
+            android:id="@+id/documentsDir"
+            android:textSize="@dimen/font_size" />
     </LinearLayout>
 </LinearLayout>

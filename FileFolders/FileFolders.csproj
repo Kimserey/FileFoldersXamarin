@@ -73,6 +73,7 @@
     <AndroidResource Include="Resources\mipmap-mdpi\test_image.png" />
     <AndroidResource Include="Resources\drawable\ic_pets_black_24dp.png" />
     <AndroidResource Include="Resources\drawable\splash.xml" />
+    <AndroidResource Include="Resources\values\Dimen.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
